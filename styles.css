@@ -1,10 +1,39 @@
 body {
     background-color: white;
     font-family: arial,sans-serif;
+    font-size: 13px;
 }
 
-#top_right {
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     text-align: right;
+}
+
+li {
+    display: inline;
+}
+
+#bottomList {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background: #f2f2f2;
+    text-align: left;
+    border-top: 1px solid #dadce0;
+    font-size: 15px;
 }
 
 #imgLogo {
@@ -28,8 +57,9 @@ body {
 .button_center {
     background-color: rgb(245, 245, 245);
     border-color: rgb(150, 150, 150, 0);
-    border-radius: 3px;
-    padding: 10px;
+    border-radius: 4px;
+    padding: 16px;
+    font-size: 14px;
 }
 
 .button_center:hover {
@@ -45,8 +75,9 @@ input {
     display: block;
     margin: 25px auto;
     width: 400px;
-    border-radius: 30px;
+    border-radius: 24px;
     padding: 10px;
     padding-left: 30px;
-    border-color: rgb(240, 240, 240);
+    border-color: rgba(223,225,229,0);
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
 }
