@@ -13,8 +13,27 @@ body {
     padding-top: 200px;
 }
 
-#button_center {
+.div_center {
     text-align: center;
+}
+
+.button_topright {
+    background-color: rgb(60, 89, 255);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.button_center {
+    background-color: rgb(245, 245, 245);
+    border-color: rgb(150, 150, 150, 0);
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.button_center:hover {
+    border-color: rgb(150, 150, 150, 1);
 }
 
 #text_center {
@@ -26,4 +45,8 @@ input {
     display: block;
     margin: 25px auto;
     width: 400px;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 30px;
+    border-color: rgb(240, 240, 240);
 }
